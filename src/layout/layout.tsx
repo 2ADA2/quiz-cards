@@ -24,16 +24,16 @@ export const Layout = () => {
             <footer>
                 <nav>
                     <span>Навигация по приложению</span>
-                    <Link to={"/"}>Главная</Link>
-                    <Link to={"/profile"}>Профиль</Link>
-                    <Link to={"/catalogue"}>Каталог</Link>
+                    <Link to={"/"} onClick={() => window.scrollTo(0,0)}>Главная</Link>
+                    <Link to={"/profile"} onClick={() => window.scrollTo(0,0)}>Профиль</Link>
+                    <Link to={"/catalogue"} onClick={() => window.scrollTo(0,0)}>Каталог</Link>
                 </nav>
                 <nav>
                     <span>Социальные сети</span>
-                    <a href={"https://github.com/2ADA2"} target={"_blank"}>git</a>
-                    <a href={"https://github.com/2ADA2"} target={"_blank"}>skype</a>
-                    <a href={"https://github.com/2ADA2"} target={"_blank"}>instagram</a>
-                    <a href={"https://github.com/2ADA2"} target={"_blank"}>telegram</a>
+                    <a href={"https://github.com/2ADA2"} target={"_blank"} >git</a>
+                    <a href={"https://github.com/2ADA2"} target={"_blank"} >skype</a>
+                    <a href={"https://github.com/2ADA2"} target={"_blank"} >instagram</a>
+                    <a href={"https://github.com/2ADA2"} target={"_blank"} >telegram</a>
                 </nav>
             </footer>
         </>

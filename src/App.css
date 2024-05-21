@@ -1,4 +1,4 @@
-html,body, #root, .App, main{
+#root, main, .App{
     height: 100%;
 }
 main{
